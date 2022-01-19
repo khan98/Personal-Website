@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" media= "screen and (max-width:800px)" href="tablet.css">
+    <link rel="stylesheet" media= "screen and (max-width:530px)" href="phone.css">
+</head>
+<body>
+    <nav class="navbar">
+      <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About Me</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#services">Skills</a></li>
+          <li><a href="#contact">Contact Me</a></li>
+      </ul>
+    </nav>
+    <section id="home">
+        <div class="main">
+            <h1 class="headings">I AM <br>NAVID KHAN</h1>
+            <button class="btn">
+                Hire me
+            </button>
+        </div>
+    </section>
+
+    <section id="about">
+        <h1 class="headings">ABOUT ME</h1>
+        <div id="pic">
+            <img src="twoimage.jpg" alt="">
+            <div id="intro">
+                <h2>WELCOME!</h2>
+                <p>Hi! As you've probably already read, my name is Navid Khan. I'm 21 years old and 
+                    studying my third year of Software Engineering at Western University. I found a passion in
+                tech ever since I was a kid trying to fix our old desktop. I've been coding for over 5 years now
+            and am experienced in multiple different languages and frameworks. Over the past couple of years I also gained
+        a hobby in design and am currently the Graphic Designer for one of the largest clubs on campus. 
+    My future aspirations would be to work in the technological side of either the Fintech or Transportation industry. 
+Feel free to look around my website and please reach out if you think I am a suitable fit for your company and its environment</p>
+            </div>
+        </div>
+    </section>
+    <section id="portfolio">
+        <h1 class="headings">PROJECTS</h1>
+        <div class="row">
+            <div class="box4">
+                <a href="https://www.google.com/">
+                    <img src="BennyMerco.jpg" alt="" 
+                    width= "240px" height = "240px">
+                </a>
+                <h1 class="headings">Music Player</h1>
+                <p> A music player app that allows the user to listen to, pause, skip through, 
+                    and jump to a specific part of several pre-inputted songs. The project was
+                    created using JavaScript, HTML5, and CSS. 
+                </p>
+            </div>
+            <div class="box5">
+                <a href="https://www.google.com/">
+                    <img src="Weather.jpg" alt="" 
+                    width= "380px" height = "280px">
+                </a>
+                <h1 class="headings">Current Weather App</h1>
+                <p>An app that displays the current weather for any city in the world using
+                    OpenWeather API. The user's default city is chosed based on the 
+                    current latitude and longitude. Each city will show its current
+                    precipitation, wind, and humidity as well as display a background photo exclusive to
+                    its location.
+                </p>
+            </div>
+            <div class="box6">
+                <a href="https://www.google.com/">
+                    <img src="Pong.jpg" alt="" 
+                    width= "280px" height = "320px">
+                </a>
+                <h1 class="headings">Pong</h1>
+                <p>Standard pong game vs the computer AI. Controlled fully by mouse and first to 12 wins
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section id="services">
+        <h1 class="headings">SKILLS</h1>
+        <div class="row">
+            <div class="box1">
+                <img src="Java.png" alt="">
+                <h1 class="headings">Programming Languages</h1>
+                <p> I'm experienced with multiple languages. Java and JavaScript in particular 
+                    are my most proficient and experienced. Additonally I started learning Python in high school
+                    and have created various mini projects such as games over the years using it. And of course as 
+                    evident by this website, I know HTML and CSS! 
+                </p>
+            </div>
+            <div class="box2">
+                <img src="Figma.png" alt="">
+                <h1 class="headings">UX/UI <br> Design</h1>
+                <p>Design and appeal of user performance has been an interest of mine since I was a kid. 
+                    Over the past couple of years I have worked on various projects using Figma, Canva, and Adobe.
+                    Additonally, CSS has helped me design the aesthetics of my software projects including this website. 
+                </p>
+            </div>
+            <div class="box3">
+                <img src="React.png" alt="">
+                <h1 class="headings">Libraries and Frameworks</h1>
+                <p>Experienced in React and JQuery and worked on various school projects using the two. Additonally, I have used 
+                    React Icons to help create some of my projects
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h1 class="headings">CONTACT</h1>
+        <form action="" class="form">
+            <input type="text" name="name" class="input" placeholder = "Enter Your Name">
+            <input type="email" name="email" id="input" placeholder= "Enter Your Email">
+            <textarea name="msg" id="msg" cols="30" rows="10" placeholder = "Enter Your Message"></textarea>
+            <input type="submit" value="SEND" id="send">
+        </form>
+    </section>
+</body>
+</html>
